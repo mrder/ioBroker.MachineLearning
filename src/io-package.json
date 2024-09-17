@@ -1,0 +1,22 @@
+{
+  "common": {
+    "name": "MachineLearning",
+    "version": "1.0.0",
+    "title": "My ML Adapter",
+    "desc": "Ein Adapter für Machine Learning mit brain.js.",
+    "enabled": true,
+    "admin": "admin/index.html",
+    "icon": "icons/my-ml-adapter.png",
+    "readme": "README.md",
+    "news": "CHANGELOG.md",
+    "dependencies": [],
+    "mode": "daemon",
+    "platform": "javascript",
+    "noConfig": false,
+    "extIcon": "https://path/to/icon.png",
+    "license": "MIT"
+  },
+  "native": {},
+  "objects": [],
+  "instances": []
+}

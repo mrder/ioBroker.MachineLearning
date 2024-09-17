@@ -1,0 +1,14 @@
+{
+  "name": "iobroker.MachineLearning",
+  "version": "1.0.0",
+  "description": "ioBroker Adapter für Machine Learning basierte Automatisierung",
+  "main": "main.js",
+  "scripts": {
+	"postinstall": "./install.sh"
+  },
+  "author": "Sonny",
+  "license": "MIT",
+  "dependencies": {
+    "brain.js": "*"
+  }
+}

@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    margin-bottom: 10px;
+    width: 100%;
+}

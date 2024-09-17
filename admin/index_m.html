@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div>
+        <label for="sensor">Sensor auswählen:</label>
+        <input type="text" id="sensor" placeholder="Sensor-ID">
+    </div>
+
+    <div>
+        <label for="actor">Aktor auswählen:</label>
+        <input type="text" id="actor" placeholder="Aktor-ID">
+    </div>
+
+    <div>
+        <label for="output">Ausgabe auswählen:</label>
+        <select id="output">
+            <option value="alexa">Alexa</option>
+            <option value="whatsapp">WhatsApp</option>
+        </select>
+    </div>
+
+    <button onclick="saveSettings()">Einstellungen speichern</button>
+
+    <script src="index_m.js"></script>
+</body>
+</html>
